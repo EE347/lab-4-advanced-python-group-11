@@ -9,4 +9,4 @@ sin_wave = np.sin(x)
 cos_wave = np.cos(x)
 
 np.save('task7_sin.npy', sin_wave)
-np.save('task7_cps.npy', cos_wave)
+np.save('task7_cos.npy', cos_wave)

@@ -1,2 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
+
+sin_wave = np.load('task7_sin.npy')
+cos_wave = np.load('task7_cps.npy')
+
+x = np.linspace(0, 2 * np.pi, 100)
+
+plt.plot(x, sin_wave, label = 'Sine wave')
+plt.plot(x, cos_wave, label = 'Cosine wave')
+
+plt.title("Sine and Cosine waves")
+plt.xlabel("x values")
+plt.ylabel("y values")
+plt.legend()
+
+plt.show()
